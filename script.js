@@ -1,9 +1,17 @@
-// Function to handle button clicks
-function buttonClicked(buttonText) {
-    alert("You clicked " + buttonText);
-}
+document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona el botón por su clase
+    const ctaButton = document.querySelector(".cta-button");
+    
+    // Añade un evento de clic al botón
+    ctaButton.addEventListener("click", function() {
+        alert("Consultando médico...");
+    });
 
-// Function to handle interactive text clicks
-function textClicked(textContent) {
-    alert("You clicked " + textContent);
-}
+    // Selecciona el texto informativo por su clase
+    const infoText = document.querySelector(".info-text");
+    
+    // Añade un evento de clic al texto informativo
+    infoText.addEventListener("click", function() {
+        alert("Realizando prueba...");
+    });
+});

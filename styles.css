@@ -1,57 +1,47 @@
-/* General styling */
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.header, .footer {
-    background-color: #333;
+    background-color: #000;
     color: white;
+    font-family: Arial, sans-serif;
+}
+
+#container {
     text-align: center;
     padding: 20px;
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+h1 {
+    font-size: 28px;
 }
 
-/* Button styling */
-.main-button {
-    background-color: blue;
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.slogan {
+    font-size: 18px;
+    color: purple;
+}
+
+.cta-button {
+    border-width:0PX ;
+    background-color: red;
     color: white;
-    border: none;
-    padding: 15px 30px;
-    margin: 10px;
-    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
     font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.main-button:hover {
-    background-color: darkblue;
-}
-
-/* Interactive text styling */
-.interactive-text {
-    color: black;
+    margin: 20px auto;
     cursor: pointer;
-    margin: 10px;
-    font-size: 16px;
-    transition: color 0.3s;
 }
 
-.interactive-text:hover {
-    color: darkgray;
+.info-text, .description, .telegram-mention {
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.description, .telegram-mention {
+    font-size: 14px;
 }
