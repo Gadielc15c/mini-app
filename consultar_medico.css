@@ -1,8 +1,11 @@
 .search-bar {
-    width: 100%;
+    margin-left:10px;
+    width: 90%;
     padding: 10px;
     border-radius: 5px;
     font-family: Arial;
+    display: flex;
+
 }
 
 .chips-container {
@@ -12,19 +15,30 @@
     font-family: Arial;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
 .chip {
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.468);
     flex-grow: 1;
     text-align: center;
     white-space: nowrap;
-    overflow:visible;
+    overflow: hidden;
     text-overflow: ellipsis;
-    color:#fff
+    
 }
+.upper-div {
 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 .video-card { background: rgb(215,255,251);
     background: linear-gradient(90deg, rgba(215,255,251,1) 0%, rgba(255,255,255,1) 100%); 
     border: none;
