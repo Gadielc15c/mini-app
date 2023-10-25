@@ -16,12 +16,13 @@
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.553);
+    border: 2px solid rgb(255, 255, 255);
     flex-grow: 1;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;
+    overflow:visible;
     text-overflow: ellipsis;
+    color:#fff
 }
 
 .video-card { background: rgb(215,255,251);
